@@ -6,6 +6,9 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin": {
+    "iparking-cli-dev": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,6 +16,9 @@
   "files": [
     "lib"
   ],
+  "dependencies": {
+    "@iparking/utils": "file:../utils"
+  },
   "publishConfig": {
     "access": "public"
   },
