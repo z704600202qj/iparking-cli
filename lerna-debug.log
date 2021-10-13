@@ -1,0 +1,12 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   name: '@imooc/cli-dev/core'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Users\zhangmcd\Desktop\cli\cli-dev\imooc-cli-dev
+3 error TypeError: Cannot read property 'toLocaleLowerCase' of undefined
+3 error     at camelCase (C:\Users\zhangmcd\Desktop\cli\cli-dev\imooc-cli-dev\node_modules\_yargs-parser@20.2.4@yargs-parser\build\index.cjs:8:15)
+3 error     at CreateCommand.initialize (C:\Users\zhangmcd\Desktop\cli\cli-dev\imooc-cli-dev\node_modules\_@lerna_create@4.0.0@@lerna\create\index.js:63:22)
+3 error     at C:\Users\zhangmcd\Desktop\cli\cli-dev\imooc-cli-dev\node_modules\_@lerna_command@4.0.0@@lerna\command\index.js:274:24
